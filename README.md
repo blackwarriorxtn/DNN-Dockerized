@@ -1,5 +1,5 @@
-# DNN-Dockerized
-In this repository you can find the docker recipes necessary to run the DNN version community on dockerized Windows containers.
+# DotNetNuke LAB 
+just A lab  for the DotNetNuke Cookie Deserialization RCE (<9.1.1) CVE-2017-9822
 
 ## Instructions
 You must follow the following steps:
