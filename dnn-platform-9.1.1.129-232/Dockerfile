@@ -27,7 +27,7 @@ ENV ROSLYN_COMPILER_LOCATION c:\\RoslynCompilers\\tools
 # Copy DNN files and add permissions
 RUN [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; `
     Invoke-WebRequest -Uri https://github.com/dnnsoftware/Dnn.Platform/releases/download/v9.1.0/DNN_Platform_9.1.0.367_Install.zip -OutFile C:\DNN_Platform_9.1.0.367_Install.zip ; `
-    Expand-Archive -Path C:\DNN_Platform_9.1.1.129-232_Install.zip -DestinationPath C:\inetpub\wwwroot\ ; `
+    Expand-Archive -Path C:\DNN_Platform_9.1.0.367_Install.zip -DestinationPath C:\inetpub\wwwroot\ ; `
     Remove-Item C:\DNN_Platform_9.1.0.367_Install.zip -Force ; `
     cmd /c icacls c:\inetpub\wwwroot /grant 'IIS AppPool\DefaultAppPool:(OI)(CI)M' /T ;
 
