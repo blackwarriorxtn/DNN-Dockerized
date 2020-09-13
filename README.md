@@ -1,5 +1,5 @@
 # DotNetNuke LAB 
-just A lab  for the DotNetNuke Cookie Deserialization RCE (<9.1.1) CVE-2017-9822
+Just a lab  for the DotNetNuke Cookie Deserialization RCE (<9.1.1) CVE-2017-9822
 
 ## Instructions
 You must follow the following steps:
